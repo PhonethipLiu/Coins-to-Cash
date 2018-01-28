@@ -35,19 +35,4 @@ dollarAmount = p + n + d + q;
 document.getElementById("money").innerHTML = "You have <strong>$" + dollarAmount + "</strong> in your piggy bank.";
 
 
-// function bank() {
-//     for(i=0; i < piggyBank.length; i++){
-//         // var dollarAmount = 0;
-//         var p = piggyBank.pennies / 100;
-//         var n = piggyBank.nickels / 20;
-//         var d = piggyBank.dimes / 10;
-//         var q = piggyBank.quarter / 4;
-//         var dollarAmount = "$" + (p + n + d + q);
-//     }
-//     console.log(dollarAmount);
-// };
-// console.log(bank(p));
-// document.getElementById("money").innerHTML = bank(piggyBank);
-
-// console.log(bank);
 
